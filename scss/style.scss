@@ -1,0 +1,24 @@
+//
+// style.scss
+//--------------------------------------------------------------------------//
+//
+// style.scss contains the main structure of the files to compile.
+// style.scss should always compile to carrecruitment/style.css
+//
+//--------------------------------------------------------------------------//
+
+// Load variables
+@import 'variables';
+
+// Load functions and mixins index
+@import 'functions/index';
+@import 'mixins/index';
+
+// Load CSS comment for theme at the head of the document
+@import 'comment';
+
+// Load Bootstrap v4
+@import 'bootstrap-v4';
+
+// Load site specific theme styles
+@import 'theme/index';

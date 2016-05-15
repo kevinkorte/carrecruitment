@@ -25,15 +25,15 @@ $(window).load(function () {
 	  };
 	})(jQuery);
 	var win = $(window);
-	var sectionMods = $("section");
-	sectionMods.each(function(i, el) {
+	var sectionMod = $("section");
+	sectionMod.each(function(i, el) {
 	  var el = $(el);
 	  if (el.visible(true)) {
 		el.addClass("im-in");
 	  }
 	});
 	win.scroll(function(event) {
-	  sectionMods.each(function(i, el) {
+	  sectionMod.each(function(i, el) {
 		var el = $(el);
 		if (el.visible(true)) {
 		  el.addClass("come-in");

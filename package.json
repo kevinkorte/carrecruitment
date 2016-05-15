@@ -1,0 +1,25 @@
+{
+  "name": "cars-theme",
+  "version": "1.0.0",
+  "description": "This is the theme build for carrecruitment.com using Bootstrap V4",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rokkitpress/carrecruitment.git"
+  },
+  "author": "Craig Watson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rokkitpress/carrecruitment/issues"
+  },
+  "homepage": "https://github.com/rokkitpress/carrecruitment#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.0"
+  }
+}
