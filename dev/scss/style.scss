@@ -20,5 +20,11 @@
 // Load Bootstrap v4
 @import 'bootstrap-v4';
 
+// Load Bootstrap no gutter classes
+@import 'no-gutters.scss';
+
 // Load site specific theme styles
 @import 'theme/index';
+
+// Load animation code snippets taken from animate.css
+@import 'animations';

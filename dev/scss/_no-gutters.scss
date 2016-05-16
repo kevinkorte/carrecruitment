@@ -1,0 +1,46 @@
+// Removing gutters
+.ng {
+	padding-right: 0;
+	padding-left: 0;
+}
+.ng-xs-r {
+	@media (min-width: 0em) and (max-width: 34em) {
+		padding-right: 0;
+	}
+}
+.ng-md-r {
+	@media (min-width: 48em) {
+		padding-right: 0;
+	}
+}
+.ng-lg-r {
+	@media (min-width: 62em) {
+		padding-right: 0;
+	}
+}
+.ng-xl-r {
+	@media (min-width: 75em) {
+		padding-right: 0;
+	}
+}
+
+.ng-xs-l {
+	@media (min-width: 0em) and (max-width: 34em) {
+		padding-left: 0;
+	}
+}
+.ng-md-l {
+	@media (min-width: 48em) {
+		padding-left: 0;
+	}
+}
+.ng-lg-l {
+	@media (min-width: 62em) {
+		padding-left: 0;
+	}
+}
+.ng-xl-l {
+	@media (min-width: 75em) {
+		padding-left: 0;
+	}
+}

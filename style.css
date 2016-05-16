@@ -1,1 +1,259 @@
-html,body{font-size:13px}@media (min-width: 34em){html,body{font-size:16px}}@media (max-width: 62em){.navbar-brand,.navbar-nav .nav-item{float:none;display:block}.navbar-brand{float:right}.navbar-nav .nav-item+.nav-item{margin-left:0}}@media (max-width: 34em){.jumbotron{margin-bottom:0}}.navbar{border-radius:0 !important}.jumbotron-fluid{min-height:240px;background-image:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/201958/CARS-BS4-Jumbotron-BG-V2.svg");background-repeat:no-repeat;background-position:bottom center;background-size:200%}@media (min-width: 34em){.jumbotron-fluid{min-height:620px}}@media (min-width: 48em){.jumbotron-fluid h1{font-size:3.5rem}}@media (min-width: 65em){.jumbotron-fluid h1{font-size:4.5rem}}#jumbotronFeaturedJob:hover{text-decoration:none}.jumbotron-heading-abbr{border-bottom:none !important}.mobile-btns .btn{border-radius:0;margin:0}.mobile-btns .btn .fa{font-size:2.2rem}.latest-job-listings{height:1000px}.employers .btn,.job-seekers .btn{border-radius:0}.callback-bg{background-image:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/201958/CARS-BS4-Callback-BG-V3.svg");background-position:calc(100% - 1rem) 130px;background-repeat:no-repeat;background-size:40%}.testimonials-bg{background-image:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/201958/CARS-BS4-Testimonial-BG.svg");background-position:center 40px;background-repeat:no-repeat;background-size:30%}footer{font-size:0.8rem}.place-holder-box{min-width:100%;min-height:180px}.ng{padding-right:0;padding-left:0}@media (min-width: 0em) and (max-width: 34em){.ng-xs-r{padding-right:0}}@media (min-width: 48em){.ng-md-r{padding-right:0}}@media (min-width: 62em){.ng-lg-r{padding-right:0}}@media (min-width: 75em){.ng-xl-r{padding-right:0}}@media (min-width: 0em) and (max-width: 34em){.ng-xs-l{padding-left:0}}@media (min-width: 48em){.ng-md-l{padding-left:0}}@media (min-width: 62em){.ng-lg-l{padding-left:0}}@media (min-width: 75em){.ng-xl-l{padding-left:0}}.im-in{transform:translateY(0);transition-duration:1s}.come-in{transform:translateY(0);transition-duration:1s}@media (min-width: 34em){section{transform:translateY(180px)}}
+.ng {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@media (min-width: 0em) and (max-width: 34em) {
+  .ng-xs-r {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 48em) {
+  .ng-md-r {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 62em) {
+  .ng-lg-r {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 75em) {
+  .ng-xl-r {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 0em) and (max-width: 34em) {
+  .ng-xs-l {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 48em) {
+  .ng-md-l {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 62em) {
+  .ng-lg-l {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 75em) {
+  .ng-xl-l {
+    padding-left: 0;
+  }
+}
+
+html,
+body {
+  font-size: 13px;
+}
+
+@media (min-width: 34em) {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 62em) {
+  .navbar-brand,
+  .navbar-nav .nav-item {
+    float: none;
+    display: block;
+  }
+  .navbar-brand {
+    float: right;
+  }
+  .navbar-nav .nav-item + .nav-item {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 34em) {
+  .jumbotron {
+    margin-bottom: 0;
+  }
+}
+
+.navbar {
+  border-radius: 0 !important;
+}
+
+.jumbotron-fluid {
+  min-height: 240px;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/201958/CARS-BS4-Jumbotron-BG-V2.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 200%;
+}
+
+@media (min-width: 34em) {
+  .jumbotron-fluid {
+    min-height: 620px;
+  }
+}
+
+@media (min-width: 48em) {
+  .jumbotron-fluid h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 65em) {
+  .jumbotron-fluid h1 {
+    font-size: 4.5rem;
+  }
+}
+
+#jumbotronFeaturedJob:hover {
+  text-decoration: none;
+}
+
+.jumbotron-heading-abbr {
+  border-bottom: none !important;
+}
+
+.mobile-btns .btn {
+  border-radius: 0;
+  margin: 0;
+}
+
+.mobile-btns .btn .fa {
+  font-size: 2.2rem;
+}
+
+.latest-job-listings {
+  height: 1000px;
+}
+
+.employers .btn,
+.job-seekers .btn {
+  border-radius: 0;
+}
+
+.callback-bg {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/201958/CARS-BS4-Callback-BG-V3.svg");
+  background-position: calc(100% - 1rem) 130px;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.testimonials-bg {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/201958/CARS-BS4-Testimonial-BG.svg");
+  background-position: center 40px;
+  background-repeat: no-repeat;
+  background-size: 30%;
+}
+
+footer {
+  font-size: 0.8rem;
+}
+
+.place-holder-box {
+  min-width: 100%;
+  min-height: 180px;
+}
+
+.im-in {
+  transform: translateY(0);
+  transition-duration: 1s;
+}
+
+.come-in {
+  transform: translateY(0);
+  transition-duration: 1s;
+}
+
+@media (min-width: 34em) {
+  section {
+    transform: translateY(180px);
+  }
+}
+
+/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.5.1
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2016 Daniel Eden
+ */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
+@-webkit-keyframes zoomInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+@keyframes zoomInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+.zoomInDown {
+  -webkit-animation-name: zoomInDown;
+  animation-name: zoomInDown;
+}

@@ -13,11 +13,11 @@ module.exports = function(grunt) {
           compress: false,
           preserveComments: 'all'
         },
-        src: 'js/*.js',
+        src: 'dev/js/*.js',
         dest: 'js/scripts.min.js'
       },
       build: {
-        src: 'js/*.js',
+        src: 'dev/js/*.js',
         dest: 'js/scripts.min.js'
       }
     },
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
           outputStyle: 'expanded'
         },
         files: {
-          'style.css' : 'scss/style.scss'
+          'style.css' : 'dev/scss/style.scss'
         }
       },
       build: {
@@ -36,18 +36,18 @@ module.exports = function(grunt) {
           outputStyle: 'compressed'
         },
         files: {
-          'style.css' : 'scss/style.scss'
+          'style.css' : 'dev/scss/style.scss'
         }
       }
     },
 
     watch: {
       js: {
-        files: ['js/*.js'],
+        files: ['dev/js/*.js'],
         tasks: ['uglify:dev']
       },
       css: {
-        files: ['scss/**/*.scss'],
+        files: ['dev/scss/**/*.scss'],
         tasks: ['sass:dev']
       }
     }
