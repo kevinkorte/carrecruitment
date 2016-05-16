@@ -120,16 +120,13 @@ footer {
 
 
 // For the slide in effect on scroll
+.come-in,
 .im-in {
 	transform: translateY(0);
 	transition-duration: 1s;
 }
-.come-in {
-	transform: translateY(0);
-	transition-duration: 1s;
-}
-section {
-	@media (min-width: 34em) {
+@media (min-width: 34em) {
+  section {
 	    transform: translateY(180px);
 	}
 }

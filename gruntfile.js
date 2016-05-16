@@ -50,6 +50,21 @@ module.exports = function(grunt) {
         files: ['dev/scss/**/*.scss'],
         tasks: ['sass:dev']
       }
+    },
+
+    postcss: {
+        options: {
+            map: true,
+            processors: [
+                require('autoprefixer')({browsers: 'last 2 versions'}) // add vendor prefixes
+            ]
+        },
+        dev: {
+            src: 'style.css'
+        },
+        build: {
+            src: 'style.css'
+        }
     }
 
   });
@@ -58,9 +73,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-postcss');
 
   // Register task(s)
-  grunt.registerTask('default', ['uglify:dev','sass:dev']);
-  grunt.registerTask('build', ['uglify:build','sass:build']);
+  grunt.registerTask('default', ['uglify:dev','sass:dev','postcss:dev']);
+  grunt.registerTask('build', ['uglify:build','sass:build','postcss:build']);
 
 }
